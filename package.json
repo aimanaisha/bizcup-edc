@@ -1,0 +1,15 @@
+{
+  "name": "edc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tailwindcss -i ./src/styles.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Aiman Aisha",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  }
+}
